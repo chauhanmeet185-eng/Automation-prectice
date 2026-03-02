@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- <groups>
+	<run>
+		<include name="smoke"></include>
+	</run>
+</groups> -->
+
+<test name="Test">
+
+<parameter name="c" value="20"></parameter>
+<parameter name="d" value="30"></parameter>
+
+<classes>
+      <!--<class name="selenium_code.test"/>
+      <methods>
+      <include name = "show"></include>
+      </methods> -->
+      <class name = "selenium_code.parameterex"></class>
+      <!--<class name = "selenium_code.groupex2"></class> 
+      <methods>
+      <exclude name = "show.*"></exclude>
+      </methods>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
